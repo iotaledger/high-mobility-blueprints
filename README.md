@@ -8,7 +8,7 @@ This example connects a car simulator to a charging station simulator and allows
 
 ## Requirements:
 
- - Node 8.9+ & hmkit 0.7.1
+ - Node 8.9+
  - A High-Mobility App Client Certificate
  - High-Mobility Emulator Access Certificates
 
