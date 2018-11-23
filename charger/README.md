@@ -6,7 +6,7 @@ As you will see in the code, the Vehicle sends 1 IOTA to the Charger. After some
 
 ## Requirements:
 
- - Node 8.9+ & hmkit 0.7.1
+ - Node 8.9+
  - A High-Mobility App Client Certificate
  - High-Mobility Emulator Access Certificates for a Vehicle and a Charger
  - An IOTA seed with test net tokens for the vehicle and another seed for the Charger
