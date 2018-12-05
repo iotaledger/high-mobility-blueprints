@@ -6,6 +6,10 @@ This repository consists of example implementations in Node.js connecting the Hi
 
 This example connects a car simulator to a charging station simulator and allows the car to pay for charging services.
 
+## Example 2: MAM
+
+This example connects to a car simulator on the High-Mobility platform and publishes location changes to a restricted MAM stream on the IOTA tangle.
+
 ## Requirements:
 
  - Node 8.9+
