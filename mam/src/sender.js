@@ -7,7 +7,7 @@ require('./errorhandling')
 // Hack to work around using the precompiled mam library when we already have the babel polyfill in use
 global._babelPolyfill = false
 
-// Import the MAM client and Tryte conversion tools need to encode the JSON message to Trytes
+// Import the MAM client and Tryte conversion tools needed to encode the JSON message to Trytes
 const Mam = require('../external/mam.client.js')
 const { asciiToTrytes } = require('@iota/converter')
 
@@ -44,7 +44,7 @@ async function publish (data) {
     return
   }
 
-  // If it are new coordinates we create a new JSON string to send to the tangle
+  // If these are new coordinates we create a new JSON string to send to the tangle
   console.log('Coordinates received:', data.coordinates)
   let toSend = JSON.stringify({ 'coords': data.coordinates, 'ts': new Date() })
 
