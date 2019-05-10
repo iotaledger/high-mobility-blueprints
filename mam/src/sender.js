@@ -8,7 +8,7 @@ require('./errorhandling')
 global._babelPolyfill = false
 
 // Import the MAM client and Tryte conversion tools need to encode the JSON message to Trytes
-const Mam = require('../external/mam.client.js')
+const Mam = require('@iota/mam')
 const { asciiToTrytes } = require('@iota/converter')
 
 // Initialize the MAM library by providing the Node, mode and secret key to use
