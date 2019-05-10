@@ -98,7 +98,7 @@ async function updateLocation () {
   }
 }
 
-console.log('\r\n\r\nUpdating MAM stream with Porsche Cayenne location data\r\n')
+console.log('\r\n\r\nUpdating MAM stream with vehicle location data\r\n')
 
 // Run our updater service and let it check for a new coordinate every 30 seconds
 updateLocation()
